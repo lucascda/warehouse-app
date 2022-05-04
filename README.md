@@ -6,4 +6,5 @@
 -  Tela inicial <br/>
 -  Listando Galpões <br/>
 -  Página de detalhes do galpão
+-  Cadastrar um galpão
 

@@ -7,4 +7,5 @@
 -  Listando Galpões <br/>
 -  Página de detalhes do galpão
 -  Cadastrar um galpão
+-  Validar dados de um galpão
 

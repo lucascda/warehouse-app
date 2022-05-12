@@ -5,7 +5,9 @@
 -  Criação do projeto<br/>
 -  Tela inicial <br/>
 -  Listando Galpões <br/>
--  Página de detalhes do galpão
--  Cadastrar um galpão
--  Validar dados de um galpão
+-  Página de detalhes do galpão <br/>
+-  Cadastrar um galpão <br/>
+-  Validar dados de um galpão <br/>
+-  Cadastrar um fornecedor <br/>
+-  Listar todos os fornecedores <br/>
 

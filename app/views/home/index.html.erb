@@ -1,10 +1,14 @@
 <section id="warehouses">
   <h2>Galpões</h2>
+  <nav>
+    <%= link_to 'Fornecedores', suppliers_path%>
+  </nav>
   <div>
     <%= flash[:notice] %>
   </div>
   <div>
     <%= link_to 'Cadastrar Galpão', new_warehouse_path() %>
+    <%= link_to 'Cadastrar Fornecedor', new_supplier_path() %>
   </div>
   <% @warehouses.each do | w | %>
     <div>

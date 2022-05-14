@@ -2,7 +2,7 @@ pt-BR:
   activerecord:
     models:
       warehouse: 'Galpão'
-      supplier: 'Fornecedor'
+      supplier: 'Fornecedor'      
     attributes:
       warehouse:
         name: "Nome"

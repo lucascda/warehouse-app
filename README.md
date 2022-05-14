@@ -11,4 +11,5 @@
 -  Cadastrar um fornecedor <br/>
 -  Listar todos os fornecedores <br/>
 -  Editar um fornecedor <br/>
+-  Cadastrar modelos de produtos
 

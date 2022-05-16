@@ -1,0 +1,19 @@
+require 'rails_helper'
+
+describe 'Usuário cria conta' do
+  it 'com sucesso' do
+    visit root_path
+    click_on 'Entrar'
+    click_on 'Cadastre-se'
+    fill_in 'Nome', with: 'Maria'
+    fill_in 'Email', with: 'maria@email.com'
+    fill_in 'Senha', with: 'password'   
+    fill_in 'Confirme sua senha', with: 'password'
+    click_on 'Criar conta'
+
+    expect(page).to have_content 'maria@email.com'
+    expect(page).to have_button 'Sair'
+    user = User.last
+    expect(user.name).to eq 'Maria'
+  end
+end

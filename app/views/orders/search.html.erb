@@ -1,0 +1,12 @@
+<h2>Resultados da Busca por: <%= @code %></h2>
+<% @orders.each do | order | %>
+  <p><%= @orders.count %> <%= Order.model_name.human(count: @orders.count).downcase%> <%= I18n.translate(:found, count: @orders.count).downcase%></p>
+  <dl>
+    <dt><%= Order.human_attribute_name(:code)%>:</dt>
+    <dd><%= order.code %></dd>
+    <dt><%= Order.human_attribute_name(:warehouse_id)%>:</dt>
+    <dd><%= order.warehouse.full_description %></dd>
+    <dt><%= Order.human_attribute_name(:supplier)%>: </dt>
+    <dd><%= order.supplier.corporate_name %></dd>
+  </dl>
+<% end %>
